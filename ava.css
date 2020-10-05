@@ -75,3 +75,94 @@
 .indiceava .sf {
   vertical-align: -2px;
 }
+
+/*Alfred*/
+.alfredcaja {
+  width: 500px;
+  border: 1px solid #000;
+  margin: auto;
+  overflow: hidden;
+}
+
+.alfredcaja .foto {
+  width: 500px;
+  height: 250px;
+  background: url(https://i.imgur.com/re9wXdB.png);
+  border-bottom: 1px solid #000;
+}
+
+.alfredcaja .nombre {
+  font-family: 'Raleway'; 
+  font-size: 22px; 
+  line-height: 22px; 
+  height: 22px;
+  padding: 114px 0px 114px 0px; 
+  text-align: center; 
+  letter-spacing: 1px;
+  color: #f3f3f3; 
+  text-transform: uppercase; 
+  font-weight: 900; 
+  text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000;
+}
+
+.alfredcaja .demas {
+  background: #131313;
+  width: 460px;
+  padding: 20px;
+}
+
+.alfredcaja .presentacion {
+  border: 1px solid #000;
+  padding: 20px;
+  background: #111111;
+  font-family: 'Calibri';
+  font-size: 12px;
+  line-height: 15px;
+  text-align: justify;
+  color: #f3f3f3;
+}
+
+.alfredcaja .presentacion span {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-bottom: 1px solid var(--acento-3);
+  color: var(--acento-3);
+}
+
+.alfredcaja .usuarios {
+  margin: 20px 20px 0px;
+}
+
+.alfredcaja .usuarios .chpj {
+  width: 210px;
+  display: inline-block;
+}
+
+.alfredcaja .usuarios img {
+  border-radius: 50%;
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.alfredcaja .usuarios .chpj div {
+  text-align: center;
+  color: #f3f3f3;
+  font-family: 'Source Code Pro';
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 5px;
+}
+
+.alfredcaja .usuarios .chpj span {
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-weight: 900;
+  display: block;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000;
+}
