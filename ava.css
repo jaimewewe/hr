@@ -5,3 +5,70 @@
 .avatabrl .avarl {font-size: 11px; line-height: 14px; text-align: justify; padding: 15px;} 
 .avatabrl .avadt .th {color: #709476; margin-right: -2px; margin-left: 5px; font-size: 8px;} 
 .avatabrl .avarl u {color: #709476; text-decoration: none; font-weight: 600;}
+
+/*índice baúl*/
+:root {
+  --accent-ava: #709476;
+}
+
+.baulava {
+  width: 855px;
+  height: 600px;
+  background: url(https://i.imgur.com/vuB4shC.png);
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+  line-height: 0px;
+}
+
+.baulava .nombreava {
+  font-size: 150px;
+  line-height: 150px;
+  color: #000;
+  font-family: 'Hello Honey';
+  text-align: center;
+  margin-left: -120px;
+  background: linear-gradient(05deg,rgb(112, 148, 118) 20%, rgba(243, 243, 243)90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 250px;
+  position: absolute;
+  width: 100%;
+}
+
+.baulava .nombreava sg {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Source Code Pro';
+  font-size: 12px;
+  letter-spacing: 7px;
+  line-height: 15px;
+  margin: -25px 0px 0px 115px;
+  -webkit-text-fill-color: #f3f3f3;
+}
+
+.baulava .nombreava ap {
+  display: block;
+  margin: -100px 0px 0px 480px;
+}
+
+.baulava .indiceava {
+  padding: 20px 30px;
+  width: 795px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  background: #161616;
+  position: absolute;
+  margin-top: 475px;
+  color: #f3f3f3;
+}
+
+.indiceava a {
+  color: var(--accent-ava);
+  text-decoration: none;
+  margin: 0px 10px;
+  } 
+
+.indiceava .sf {
+  vertical-align: -2px;
+}
