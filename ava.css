@@ -25,6 +25,7 @@
   line-height: 150px;
   color: #000;
   font-family: 'Hello Honey';
+  font-style: italic;
   text-align: center;
   margin-left: -120px;
   background: linear-gradient(05deg,rgb(112, 148, 118) 20%, rgba(243, 243, 243)90%);
@@ -41,6 +42,7 @@
   font-family: 'Source Code Pro';
   font-size: 12px;
   letter-spacing: 7px;
+  font-style: normal;
   line-height: 15px;
   margin: -25px 0px 0px 115px;
   -webkit-text-fill-color: #f3f3f3;
