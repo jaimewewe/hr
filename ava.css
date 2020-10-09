@@ -166,3 +166,89 @@
   letter-spacing: 1px;
   text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000;
 }
+
+/*búsqueda*/
+.busava {
+  background: #131313;
+  width: 450px;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.busava .bustit {
+  color: #f3f3f3;
+  font-family: 'Hello Honey';
+  font-size: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-style: italic;
+  text-transform: none;
+}
+
+.busava .bustit:before, .busava .bustit:after {
+  content: "";
+  width: 75px;
+  height: 1px;
+  background: var(--acento-3);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 20px;
+}
+
+.busava .nombus {
+  padding: 2px 10px;
+  font-family: 'Source Code Pro';
+  font-size: 10px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #f3f3f3;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.busava .nombus span {
+  color: #f3f3f3;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'Hello Honey';
+  font-style: italic;
+  text-transform: none;
+  display: block;
+}
+
+.busava .nombus:after {
+  color: var(--acento-3);
+  content: "\e08d";
+  font-family: 'saturnicons';
+  font-size: 11px;
+  vertical-align: 1px;
+  margin: 10px 0px;
+  display: block;
+}
+
+.busava .nombus i {
+  font-size: 7px;
+  color: var(--acento-3);
+}
+
+.busava .desbus {
+  border: 1px solid #000;
+  background: #161616;
+  padding: 20px;
+  font-family: 'Calibri';
+  color: #d3d3d3;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.busava .desbus i {
+  font-size: 8px;
+  color: var(--acento-3);
+}
+
+.busava .desbus strong {
+  color: var(--acento-3);
+  font-style: italic;
+}
